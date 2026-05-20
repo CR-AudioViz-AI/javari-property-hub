@@ -1,12 +1,12 @@
-// app/layout.tsx — javari-property
+// app/layout.tsx — javari-property-hub
 // Universal brand shell — EIN, auth CTA, metadata
 // CR AudioViz AI · EIN 39-3646201 · May 2026
 import type { Metadata } from 'next'
 export const dynamic = 'force-dynamic'
 export const metadata: Metadata = {
-  title: 'Javari Property',
-  description: 'Javari Property — powered by Javari AI on the CR AudioViz AI platform',
-  openGraph: { title: 'Javari Property', type: 'website' },
+  title: 'Javari Property Hub',
+  description: 'Javari Property Hub — powered by Javari AI on the CR AudioViz AI platform',
+  openGraph: { title: 'Javari Property Hub', type: 'website' },
 }
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -14,8 +14,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body style={{ margin: 0, padding: 0, fontFamily: 'system-ui,sans-serif' }}>
         <div style={{ background: 'rgba(7,8,15,0.95)', backdropFilter: 'blur(8px)', height: 48, display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 20px', position: 'fixed', top: 0, left: 0, right: 0, zIndex: 200, borderBottom: '1px solid rgba(99,102,241,0.12)' }}>
           <a href="https://craudiovizai.com" style={{ color: '#fff', textDecoration: 'none', fontWeight: 700, fontSize: 13, display: 'flex', alignItems: 'center', gap: 8 }}>
-            <span style={{ fontSize: 16 }}>🏠</span>
-            <span style={{ color: '#10b981' }}>Javari Property</span>
+            <span style={{ fontSize: 16 }}>🏘️</span>
+            <span style={{ color: '#10b981' }}>Javari Property Hub</span>
             <span style={{ color: '#374151', fontSize: 10 }}>· CR AudioViz AI · EIN 39-3646201</span>
           </a>
           <a href="https://craudiovizai.com/auth/signup" style={{ background: '#10b981', color: '#000', borderRadius: 6, padding: '5px 14px', fontSize: 11, fontWeight: 700, textDecoration: 'none' }}>Sign Up Free →</a>
